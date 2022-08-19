@@ -17,7 +17,8 @@ Modify this app so that it meets the following requirements:
    - for the previous 7 days including today (disregarding weekends/holidays
      and data not yet available)
 3. For each ticker, and for each day from the aggregate data, calculate and
-   display the difference between the opening and closing price.
+   display the difference between the opening and closing price, rounded to 4
+   decimal places.
     - For example, if a stock opened at 75.0875 and closed at 74.06, the
       difference would be -1.0275.
 
