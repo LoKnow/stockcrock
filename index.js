@@ -21,8 +21,10 @@ app.use(express.static(path.join(__dirname, "public")));
 /**
  * Routes Definitions
  */
-app.get("/", (req, res) => {
-	res.render("index", { title: "Home" });
+app.get("/", async (req, res) => {
+	res.render("index", {
+		title: "Home"
+	});
 });
 /**
  * Server Activation
